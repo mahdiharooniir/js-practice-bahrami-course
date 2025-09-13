@@ -56,10 +56,10 @@ function generateUsersElement(users) {
     let str = '';
     users.forEach(user => str += `
         <div class="shadow-sm shadow-sky-300 rounded-lg p-4 text-md bg-sky-50">
-            <p>نام: ${user.firstName}</p>
-            <p>نام خانوادگی: ${user.lastName}</p>
-            <p>سن: ${user.age}</p>
-            <p>جنسیت : ${user.gender}</p>
+            <p class = "text-gray-800">نام: ${user.firstName}</p>
+            <p class = "text-gray-800">نام خانوادگی: ${user.lastName}</p>
+            <p class = "text-gray-800">سن: ${user.age}</p>
+            <p class = "text-gray-800">جنسیت : ${user.gender}</p>
         </div>
         `);
         return str;
