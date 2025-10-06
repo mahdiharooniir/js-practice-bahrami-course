@@ -2,10 +2,10 @@ const showBtn = document.querySelector('#showBtn')
 const hideBtn = document.querySelector('#hideBtn')
 const box = document.querySelector('.box')
 
-hideBtn.onclick = function() {
+hideBtn.addEventListener('click', () => {
     box.classList.add('hidden')
-}
+})
 
-showBtn.onclick = function() {
+showBtn.addEventListener('click', () => {
     box.classList.remove('hidden')
-}
+})
