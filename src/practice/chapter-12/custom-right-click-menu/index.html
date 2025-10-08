@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../../../css/output.css" />
+</head>
+
+<body class="font-vazir flex justify-center items-center min-h-screen bg-gradient-to-r from-pink-500 to-rose-500 h-1000">
+  <div id="context-menu" class="bg-white p-1 w-65 text-gray-900 rounded-md shadow-lg invisible absolute left-0 top-0">
+      <ul class="space-y-1 *:hover:bg-gray-100 *:py-1.5 *:px-3  *:rounded-sm">
+        <!-- پیش‌نمایش -->
+        <li>
+          <a href="#" class="align">
+            <i class="fa-solid fa-eye"></i>
+            <span>پیش نمایش</span>
+          </a>
+        </li>
+        <!-- اشتراک‌گذاری -->
+        <li class="relative group flex justify-between items-center">
+          <div class="align">
+            <i class="fa-solid fa-share"></i>
+            <span>اشتراک گذاری</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <ul id="sub-menu" class="space-y-1 *:hover:bg-gray-100 *:py-1.5 *:px-4 *:cursor-pointer *:rounded-sm absolute bg-white p-1 rounded-md shadow-lg w-45 right-62  hidden group-hover:block">
+            <li class="align">
+              <i class="fa-brands fa-instagram"></i>
+              <span>اینستاگرام</span>
+            </li>
+            <li class="align">
+              <i class="fa-brands fa-x-twitter"></i>
+              <span>ایکس</span>
+            </li>
+            <li class="align">
+              <i class="fa-brands fa-telegram"></i>
+              <span>تلگرام</span>
+            </li>
+          </ul>
+        </li>
+        <!-- کپی لینک  -->
+        <li>
+          <button class="align">
+            <i class="fa-solid fa-link"></i>
+            <span>کپی لینک</span>
+          </button>
+        </li>
+        <!-- ویرایش -->
+        <li>
+          <button class="align">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <span>ویرایش</span>
+          </button>
+        </li>
+        <!-- حذف -->
+        <li>
+          <button class="align">
+            <i class="fa-solid fa-trash"></i>
+            <span>حذف کردن</span>
+          </button>
+        </li>
+      </ul>
+      <ul class="space-y-2 *:hover:bg-gray-100 *:py-2 *:px-3 *:cursor-pointer *:rounded-sm border-t mt-1 border-gray-200">
+        <!-- تنظیمات -->
+        <li class="mt-1">
+          <button class="align">
+            <i class="fa-solid fa-gear"></i>
+            <span>تنظیمات</span>
+          </button>
+        </li>
+      </ul>
+  </div>
+  <script src="https://kit.fontawesome.com/6dfb47f0c1.js" crossorigin="anonymous"></script>
+  <!-- <script src="app-ai.js"></script> -->
+  <script src="app.js"></script>
+</body>
+
+</html>
