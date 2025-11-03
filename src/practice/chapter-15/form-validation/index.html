@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordion</title>
+  <link rel="stylesheet" href="../../../css/output.css">
+</head>
+<body class="font-vazir">
+
+  <div class="border border-gray-200 shadow-md w-75 mx-auto mt-30 px-3 py-4 rounded-md">
+    <h1 class="text-2xl font-bold mb-3 text-center">فرم ثبت نام</h1>
+    <form action="" class="*:w-full">
+      <input type="text" id="name" placeholder="نام" class="outline-none border border-gray-300 my-1.5 p-2 rounded-sm focus:ring ring-gray-300">
+      <div class="text-rose-800 text-sm" id="nameError"></div>
+
+      <input type="email" id="email" placeholder="ایمیل" class="outline-none border border-gray-300 my-1.5 p-2 rounded-sm focus:ring ring-gray-300">
+      <div class="text-rose-800 text-sm" id="emailError"></div>
+
+      <input type="password" id="pass" placeholder="رمز عبور" class="outline-none border border-gray-300 my-1.5 p-2 rounded-sm focus:ring ring-gray-300">
+      <div class="text-rose-800 text-sm" id="passError"></div>
+
+      <input type="password" id="confirmPass" placeholder="تکرار رمز عبور" class="outline-none border border-gray-300 my-1.5 p-2 rounded-sm focus:ring ring-gray-300">
+      <div class="text-rose-800 text-sm" id="confirmPassError"></div>
+
+      <button type="button" class="border border-gray-300 my-1.5 p-2 rounded-sm bg-gray-200 font-medium">ثبت نام</button>
+    </form>
+  </div>
+  <div class="text-xl font-medium w-75 h-16 border-3 border-dotted mx-auto rounded-md mt-4 border-gray-300 text-green-700 invisible flex justify-center items-center" id="successMessage"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
